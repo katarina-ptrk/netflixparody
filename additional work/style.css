@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Raleway&family=Sono&display=swap');
+body {
+    font-family: 'Delicious Handrawn', cursive;
+    background-color: rgb(36, 36, 36);
+    color: rgb(87, 165, 92);
+    font-size: 17px;
+}
+.img1 {
+    margin-left: 279px;
+    height: 45px;
+    margin-top: -80px;
+    /* text-align: right; */
+
+}
+.img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.mus {
+    text-align: center;
+}
+a {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(87, 165, 92);
+}
+.img:hover {
+    background-color: black;
+    transform: scale(1.2);
+    box-shadow: 0 0 20px black;
+}
+footer {
+    text-align: right;
+}
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 22px;
+    }
+    .img1 {
+        margin-left: 360px;
+    }
+}
